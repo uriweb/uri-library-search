@@ -1,2 +1,118 @@
 /* ======= STYLES ======= */
 
+.home-search {
+	background: silver;
+	margin-bottom: 2rem;
+}
+.home-search ul {
+	margin-top: 0;
+}
+.home-search li {
+	max-width: 100%;
+}
+.home-search .cl-hero {
+	min-height: 500px;
+}
+.home-search .cl-hero .block, .home-search .cl-hero .block p  {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.home-search .cl-hero .block {
+	background: none;
+	bottom: 100px;
+}
+
+/* ==== PRIMO SEARCH ==== */
+#primo-search-container .home-search h2 {
+}
+.primo-container {
+  display: flex;
+}
+.primo-container input {
+	display: block;
+	font-size: 1rem;
+	font-family: Hind, Arial, sans-serif;
+	margin: 0;
+}
+.primo-container input[type=text] {
+	flex-basis: 80%;
+  height: 50px;
+	padding: 0;
+  line-height: 40px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  background: #fff;
+}
+.primo-container input[type=submit] {
+	flex-basis: 22%;
+  height: 50px;
+  line-height: 50px;
+  background: #243C6D;
+  border: none;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  color: #fff;
+  transition: all .2s;
+}
+.primo-container input[type=submit]:hover {
+  cursor: pointer;
+  background: #132545;
+  color: #fff;
+}
+.primo-meta-primo-search-type-cf {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0 !important;
+  height: 5rem;
+}
+.primo-meta-primo-search-type-cf a {
+  flex: 1;
+  font-size: 1rem;
+  font-family: Hind, Arial, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+  min-width: 90px;
+  padding: .9rem 1rem;
+  background: #f3f3f3;
+  border: 1px solid #fff;
+  border-width: 1px 1px 0;
+  text-align: center;
+  color: #555 !important;
+  text-shadow: none;
+}
+.primo-meta-primo-search-type-cf a:first-child {
+  margin-left: 0;
+}
+.primo-meta-primo-search-type-cf a:last-of-type {
+  border-right: 0;
+}
+.primo-meta-primo-search-type-cf a:hover {
+  background: #ddd;
+}
+.primo-search-label {
+	height: 0;
+	text-indent: -999em;
+	position: absolute;
+	width: 0;
+}
+
+@media screen and (min-width: 600px) {
+.primo-container input[type=text] {
+  padding: 5px 15px;
+}
+}
+/* ==== Add-ons ==== */
+
+ul.indent{
+  list-style-position: inside;
+}
+
+
+.cl-hero.fullwidth, .cl-hero.super {
+	width: 100vw;
+	max-width: initial;
+	position: relative;
+	left: 50%;
+	margin-left: -50vw;
+}

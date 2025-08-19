@@ -16,6 +16,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
+define( 'URI_LIBRARY_SEARCH_DIR_PATH', plugin_dir_path( __FILE__ ) );
+
 /**
  * Include css and js
  */
@@ -29,3 +31,10 @@ function uri_library_search_enqueues() {
 
 }
 add_action( 'wp_enqueue_scripts', 'uri_library_search_enqueues' );
+
+
+// Include shortcode
+include( URI_LIBRARY_SEARCH_DIR_PATH . 'inc/uri-library-search-shortcode.php' );
+
+// Include search box 
+include( URI_LIBRARY_SEARCH_DIR_PATH . 'inc/uri-library-search-box.php' );
