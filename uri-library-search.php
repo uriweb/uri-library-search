@@ -2,7 +2,7 @@
 /**
  * Plugin Name: URI Library Search
  * Plugin URI: http://www.uri.edu
- * Description: A template for plugins
+ * Description: A Search Box for the URI Library homepage
  * Version: 0.1.0
  * Author: URI Web Communications
  * Author URI: https://today.uri.edu/
