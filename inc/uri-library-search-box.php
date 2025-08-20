@@ -15,8 +15,8 @@ ob_start();
             <section class="cl-wrapper cl-hero-wrapper fullwidth">
                 <div class="cl-hero fullwidth hero-library">
                     <div class="overlay">
-                        <div class="block">
-                            <h1>Find Resources</h1>
+                        <div class="block library-contrast">
+                            <h2 class="resources">Find Resources</h2>
                             <div id="primo-search-container">
                                 <form id="primo-search" class="on"
                                     action="http://uri-primo.hosted.exlibrisgroup.com/primo-explore/search">
@@ -47,8 +47,7 @@ ob_start();
                         <!-- end primo search container -->
                     </div>
                 </div>
-                <div id="" data-id="" class="poster"
-                    style="background-image:url(https://web.uri.edu/wp-content/uploads/sites/1549/library-sunset.jpg);background-position: 50% 100%">
+                <div class="poster">
                 </div>
 </section>
         </div>

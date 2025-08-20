@@ -13,13 +13,32 @@
 .home-search .cl-hero {
 	min-height: 500px;
 }
-.home-search .cl-hero .block, .home-search .cl-hero .block p  {
+.home-search .cl-hero .block, .home-search .cl-hero  {
 	max-width: 1000px;
 	margin: 0 auto;
 }
 .home-search .cl-hero .block {
-	background: none;
+	//background: none;
 	bottom: 100px;
+}
+
+.block h2{
+  color: white;
+  font-size: 4rem;
+  text-shadow: 1px 1px 1rem rgba(0, 0, 0, 8);
+}
+
+
+.library-contrast{
+  background-color: rgba(0, 0, 0, 0.4) !important;  
+  border-radius: .5rem;
+  bottom: 60px !important;
+}
+
+
+.poster {
+  background-image: url(https://web.uri.edu/wp-content/uploads/sites/1549/library-sunset.jpg);
+  background-position: bottom right !important;
 }
 
 /* ==== PRIMO SEARCH ==== */
@@ -27,6 +46,7 @@
 }
 .primo-container {
   display: flex;
+  margin-bottom: .5px;
 }
 .primo-container input {
 	display: block;
@@ -102,14 +122,18 @@
   padding: 5px 15px;
 }
 }
-/* ==== Add-ons ==== */
 
-ul.indent{
-  list-style-position: inside;
+@media screen and (max-width: 600px) {
+.primo-container input[type=text] {
+  padding: 5px 15px !important;
 }
 
+.primo-meta-primo-search-type-cf a {
+  padding: .9rem 1rem .5rem .5rem;
+}
+}
 
-.cl-hero.fullwidth, .cl-hero.super {
+.cl-hero .fullwidth, .cl-hero .super {
 	width: 100vw;
 	max-width: initial;
 	position: relative;
