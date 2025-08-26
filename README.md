@@ -2,6 +2,11 @@
 
 A Search Box for the URI Library homepage.
 
+## How do I use the Shortcode?
+Paste the shortcode into a page to display the URI Library Search box. \
+
+Ex: ```[uri-library-search]```
+
 
 ## Plugin Details
 
@@ -11,7 +16,7 @@ A Search Box for the URI Library homepage.
 [![devDependencies Status](https://david-dm.org/uriweb/uri-library-search/dev-status.svg)](https://david-dm.org/uriweb/uri-library-search?type=dev)
 
 
-Contributors: Alexandra Gauss 
+Contributors: Alexandra Gauss \
 Tags: plugins  
 Requires at least: 4.0  
 Tested up to: 6.8.2  
