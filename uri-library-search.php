@@ -42,8 +42,13 @@ function uri_library_search_enqueues() {
 	wp_register_style( 'uri-library-search-css', plugins_url( '/css/style.built.css', __FILE__ ), array(), uri_library_search_cache_buster(), 'all'  );
 	wp_enqueue_style( 'uri-library-search-css' );
 
-	wp_register_script( 'uri-library-search-js', plugins_url( '/js/script.built.js', __FILE__ ), array('jquery'), uri_library_search_cache_buster(), true );
+	//Only Enqueue script if page has shortcode 
+	global $post;
+	if ( is_a( $post, 'WP_POST' ) && has_shortcode( $post->post_content, 'uri-library-search')) {
+		wp_register_script( 'uri-library-search-js', plugins_url( '/js/script.built.js', __FILE__ ), array('jquery'), uri_library_search_cache_buster(), true );
 	wp_enqueue_script( 'uri-library-search-js' );
+
+	}
 
 }
 add_action( 'wp_enqueue_scripts', 'uri_library_search_enqueues' );
