@@ -3,7 +3,7 @@
 A Search Box for the URI Library homepage.
 
 ## How do I use the Shortcode?
-Paste the shortcode into a page to display the URI Library Search box. \
+Paste the shortcode into a page to display the URI Library Search box. 
 
 Ex: ```[uri-library-search]```
 
@@ -20,4 +20,4 @@ Contributors: Alexandra Gauss \
 Tags: plugins  
 Requires at least: 4.0  
 Tested up to: 6.8.2  
-Stable tag: 1.0.0  
+Stable tag: 1.0.1  
