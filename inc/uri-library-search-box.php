@@ -12,8 +12,8 @@ ob_start();
 <div>
     <div class="home-search">
         <div class="fullwidth">
-            <section class="cl-wrapper cl-hero-wrapper fullwidth">
-                <div class="cl-hero fullwidth hero-library">
+            <section class="cl-wrapper cl-hero-wrapper">
+                <div class="cl-hero hero-library">
                     <div class="overlay">
                         <div class="block library-contrast">
                             <h2 class="resources">Find Resources</h2>
