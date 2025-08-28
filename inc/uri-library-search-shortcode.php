@@ -15,7 +15,8 @@ function uri_library_search_shortcode ($attributes, $shortcode) {
     $attributes = shortcode_atts (
         array(
             'before' => null,
-            'after' => null
+            'after' => null, 
+            'img' => '',
         ),
         $attributes, $shortcode
     );
