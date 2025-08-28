@@ -59,3 +59,5 @@ include( URI_LIBRARY_SEARCH_DIR_PATH . 'inc/uri-library-search-shortcode.php' );
 
 // Include search box 
 include( URI_LIBRARY_SEARCH_DIR_PATH . 'inc/uri-library-search-box.php' );
+
+// Add a note
