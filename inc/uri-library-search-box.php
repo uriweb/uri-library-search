@@ -15,7 +15,7 @@ ob_start();
             <section class="cl-wrapper cl-hero-wrapper">
                 <div class="cl-hero hero-library">
                     <div class="overlay">
-                        <div class="block library-contrast">
+                        <div class="block" id="library-contrast">
                             <h2 class="resources">What Can We Help You Find?</h2>
                             <div id="primo-search-container">
                                 <form id="primo-search" class="on"
@@ -27,7 +27,7 @@ ob_start();
                                             name="search_scope" type="hidden" value="Books_More"><input name="fn"
                                             type="hidden" value="search"><input name="vid" type="hidden"
                                             value="01URI"><input name="offset" type="hidden" value="0"><button class="submit-button"
-                                            id="primo-submit" name="submit" type="submit" value=""><span class="dashicons dashicons-search"></span></button>
+                                            id="primo-submit" name="submit" type="submit" aria-label="search"><span class="dashicons dashicons-search"></span></button>
 
 
                                 </form>
