@@ -19,7 +19,7 @@ ob_start();
                             <h2 class="resources">Find Resources</h2>
                             <div id="primo-search-container">
                                 <form id="primo-search" class="on"
-                                    action="http://uri-primo.hosted.exlibrisgroup.com/primo-explore/search">
+                                    action="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search">
                                     <div class="primo-container"><label for="primo-query"
                                             class="screen-reader-text">Search</label><input id="primo-query"
                                             name="query" type="text"
