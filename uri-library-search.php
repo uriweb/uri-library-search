@@ -50,6 +50,9 @@ function uri_library_search_enqueues() {
 
 	}
 
+	// Enqueue Dashicons 
+	wp_enqueue_style( 'dashicons' );
+
 }
 add_action( 'wp_enqueue_scripts', 'uri_library_search_enqueues' );
 
