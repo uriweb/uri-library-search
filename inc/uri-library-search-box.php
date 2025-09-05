@@ -16,7 +16,7 @@ ob_start();
                 <div class="cl-hero hero-library">
                     <div class="overlay">
                         <div class="block library-contrast">
-                            <h2 class="resources">Find Resources</h2>
+                            <h2 class="resources">What Can We Help You Find?</h2>
                             <div id="primo-search-container">
                                 <form id="primo-search" class="on"
                                     action="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search">
@@ -26,8 +26,8 @@ ob_start();
                                             placeholder="Search for books, articles &amp; more"><input
                                             name="search_scope" type="hidden" value="Books_More"><input name="fn"
                                             type="hidden" value="search"><input name="vid" type="hidden"
-                                            value="01URI"><input name="offset" type="hidden" value="0"><input
-                                            id="primo-submit" name="submit" type="submit" value="Search">
+                                            value="01URI"><input name="offset" type="hidden" value="0"><button class="submit-button"
+                                            id="primo-submit" name="submit" type="submit" value=""><span class="dashicons dashicons-search"></span></button>
 
 
                                 </form>
