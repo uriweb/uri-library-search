@@ -15,7 +15,7 @@
     max-width: initial;
     left: 50%;
     margin-left: -50vw;
-    height: 300px;
+    height: 500px;
     overflow: hidden;
     box-sizing: border-box;
     
@@ -24,8 +24,8 @@
 
 .library-search-container {
     position: absolute;
-    background-color: rgba(2255, 255, 255, 0.50);  
-    backdrop-filter: blur(15px) saturate(180%);
+    background-color: rgba(2255, 255, 255, 0.60);  
+    backdrop-filter: blur(20px) saturate(180%);
     border-radius: .5rem;
     top: 50%;
     left: 50%;
@@ -34,7 +34,6 @@
     margin: 0 auto;
     padding: 2rem 2rem 2em 2rem;
     border: .1px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 8px 40px rgba(31, 38, 135, 0.2);
     max-width: 650px;
 }
 
@@ -48,10 +47,11 @@
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 2rem;
+    padding-left: .5rem;
 }
 
 .library-search-box {
-
+padding-left: .3rem;
 }
 
 .library-search-options {
@@ -170,7 +170,13 @@ cursor: pointer;
 /* ==== END PRIMO SEARCH ==== */
 
 /* ==== MEDIA QUERIES ==== */
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 1200px) {
+    .library-search-container {
+        width: 75%;
+    }
+
+}
+@media screen and (max-width: 800px) {
     .library-hero-image {
         height: 500px;
     }
@@ -181,20 +187,18 @@ cursor: pointer;
 
     @media screen and (min-width: 600px) { 
         .library-hero-image {
-        height: 400px;
+        //height: 400px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .library-search-container {
-        width: 75%;
+        //width: 75%;
     }
     }
 
     @media screen and (max-width: 600px) { 
 
-        .library-hero-image {
-            margin-top: 100px;
-        }
+
     .library-search-container {
         width: 75%;
     }
@@ -203,11 +207,33 @@ cursor: pointer;
         padding: 0;
         margin: 2px;
     }
+    
+
+}
+
+ @media screen and (max-width: 500px) { 
+    .search-options-column {
+        flex: 2;
+        //flex-basis: 100%;
+    }
+
+    .library-search-item {
+        width: 90%;
+    }
+
+    .library-primo-container input[type=text] {
+        font-size: .85rem;
+        padding-left: 8px;
+        padding-right: 0px;
+    }
+ }
 
 
     @media screen and (max-width: 700px) {
         .library-search-item a {
-            font-size: .85rem;
+            //font-size: .9rem;
         }
+        .library-search-item {
+        width: 80%;
     }
     }
