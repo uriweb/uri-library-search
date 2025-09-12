@@ -20,4 +20,4 @@ Contributors: Alexandra Gauss \
 Tags: plugins  
 Requires at least: 4.0  
 Tested up to: 6.8.2  
-Stable tag: 1.0.1  
+Stable tag: 2.0.0  
