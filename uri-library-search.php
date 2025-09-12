@@ -3,7 +3,7 @@
  * Plugin Name: URI Library Search
  * Plugin URI: http://www.uri.edu
  * Description: A Search Box for the URI Library homepage
- * Version: 1.0.1
+ * Version: 2.0.0
  * Author: URI Web Communications
  * Author URI: https://today.uri.edu/
  *
@@ -49,6 +49,9 @@ function uri_library_search_enqueues() {
 	wp_enqueue_script( 'uri-library-search-js' );
 
 	}
+
+	// Enqueue Dashicons 
+	wp_enqueue_style( 'dashicons' );
 
 }
 add_action( 'wp_enqueue_scripts', 'uri_library_search_enqueues' );
