@@ -16,7 +16,7 @@ function uri_library_search_box()
             <div class="library-search-container">
                 <div class="library-search-content">
                     <div class="library-header">
-                        <h2>What Can We Help You Find?</h2>
+                        <h2>What can we help you find?</h2>
                     </div><!--end library-header -->
                     <div class="library-search-box">
                         <form id="library-primo-search" class="on"
@@ -24,7 +24,7 @@ function uri_library_search_box()
                             <div class="library-primo-container"><label for="primo-query"
                                     class="screen-reader-text">Search</label><input id="primo-query"
                                     name="query" type="text"
-                                    placeholder="Search for books, articles &amp; more"><input
+                                    placeholder="Search for books, articles, and more"><input
                                     name="search_scope" type="hidden" value="Books_More"><input name="fn"
                                     type="hidden" value="search"><input name="vid" type="hidden"
                                     value="01URI"><input name="offset" type="hidden" value="0"><button class="submit-button"
