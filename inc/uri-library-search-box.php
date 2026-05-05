@@ -20,15 +20,15 @@ function uri_library_search_box()
                     </div><!--end library-header -->
                     <div class="library-search-box">
                         <form id="library-primo-search" class="on"
-                            action="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search">
+                            action="https://uri.primo.exlibrisgroup.com/nde/search">
                             <div class="library-primo-container"><label for="primo-query"
                                     class="screen-reader-text">Search</label><input id="primo-query"
                                     name="query" type="text"
                                     placeholder="Search for books, articles, and more"><input
-                                    name="search_scope" type="hidden" value="Books_More"><input name="fn"
+                                    name="search_scope" type="hidden" value="MyInst_and_CI"><input name="fn"
                                     type="hidden" value="search"><input name="vid" type="hidden"
                                     value="01URI"><input name="offset" type="hidden" value="0"><button class="submit-button"
-                                    id="primo-submit" name="submit" type="submit" aria-label="search"><span class="dashicons dashicons-search"></span></button>
+                                    id="primo-submit" name="submit" type="submit" aria-label="Library Search"><span class="dashicons dashicons-search"></span></button>
                             </div><!-- end library-primo-container-->
 
 
