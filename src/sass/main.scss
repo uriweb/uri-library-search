@@ -6,8 +6,8 @@
 }
 
 .library-hero-image {
-    background-image: url(../images/library-spring-3.jpg);
-    background-position: bottom center;
+    background-image: linear-gradient(rgba(46, 46, 39, 0.5), rgba(28, 27, 27, 0.5)),url(../images/library-spring-3.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -24,7 +24,7 @@
     position: absolute;
     background-color: rgba(2255, 255, 255, 0.60);
     backdrop-filter: blur(20px) saturate(180%);
-    border-radius: .5rem;
+    border-radius: 1rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -32,7 +32,7 @@
     margin: 0 auto;
     padding: 2rem 2rem 2em 2rem;
     border: .1px solid rgba(255, 255, 255, 0.5);
-    max-width: 650px;
+    max-width: 850px;
 }
 
 .library-header h2 {
@@ -86,6 +86,8 @@
 .library-search-item a:hover {
     text-decoration: underline;
     color: black;
+    text-underline-offset: .3em;
+    text-decoration-color: rgb(99, 99, 99);
 }
 
 /* ==== PRIMO SEARCH ==== */
@@ -93,7 +95,6 @@
 .library-primo-container {
     display: flex;
     margin-bottom: 20px;
-
 }
 
 .library-primo-container input {
@@ -102,12 +103,13 @@
     font-family: Hind, Arial, sans-serif;
     margin: 0;
     width: 100%;
+    border-radius: 30px;
 }
 
 .library-primo-container input[type=text] {
-    flex-basis: 80%;
+    flex-basis: 90%;
     height: 50px;
-    padding: 5px 15px;
+    padding: 0px 25px;
     line-height: 40px;
     font-size: 1rem;
     border: 2px solid #ddd;
@@ -126,6 +128,9 @@
     color: #fff;
     transition: all .2s;
     max-width: 90px;
+    border-radius: 50px;
+    margin-left: 3px;
+    transform: translateY(0);
 }
 
 
@@ -148,6 +153,8 @@
     cursor: pointer;
     background: #132545;
     color: #fff;
+    transform: translateY(-2%);
+    box-shadow: 0 .1rem .15rem rgba(0,0,0,.1),0 .1rem .3rem rgba(0,0,0,.1);
 }
 
 /* ==== END PRIMO SEARCH ==== */
