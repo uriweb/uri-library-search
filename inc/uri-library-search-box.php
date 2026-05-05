@@ -37,7 +37,7 @@ function uri_library_search_box()
                     <div class="library-search-options">
                         <div class="search-options-row">
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01URI&amp;mode=advanced">Advanced
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/home?vid=01URI_INST:01URI_INST_NDE&lang=en&mode=advanced">Advanced
                                         Search</a></div>
                             </div><!-- end column-->
 
@@ -46,14 +46,14 @@ function uri_library_search_box()
                             </div><!-- end column-->
 
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01URI&amp;tab=course_tab">Course
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/home?vid=01URI_INST:01URI_INST_NDE&lang=en&tab=CourseReserves">Course
                                         Reserves</a></div>
                             </div><!-- end column-->
                         </div><!-- end row -->
 
                         <div class="search-options-row">
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/login?vid=01URI&amp;targetURL=https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01URI&amp;lang=en_US">My
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/account?vid=01URI_INST:01URI_INST_NDE&lang=en">My
                                         Library Account</a></div>
                             </div><!-- end column-->
 
@@ -62,7 +62,7 @@ function uri_library_search_box()
                             </div><!-- end column-->
 
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?vid=01URI&amp;lang=en_US">e-Journals</a></div>
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/jsearch?vid=01URI_INST:01URI_INST_NDE&lang=en">e-Journals</a></div>
                             </div><!-- end column-->
                         </div> <!-- end row -->
                     </div><!--end library-search-options> -->
