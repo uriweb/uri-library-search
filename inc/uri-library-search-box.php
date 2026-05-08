@@ -20,15 +20,15 @@ function uri_library_search_box()
                     </div><!--end library-header -->
                     <div class="library-search-box">
                         <form id="library-primo-search" class="on"
-                            action="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search">
+                            action="https://uri.primo.exlibrisgroup.com/nde/search">
                             <div class="library-primo-container"><label for="primo-query"
                                     class="screen-reader-text">Search</label><input id="primo-query"
                                     name="query" type="text"
                                     placeholder="Search for books, articles, and more"><input
-                                    name="search_scope" type="hidden" value="Books_More"><input name="fn"
+                                    name="search_scope" type="hidden" value="MyInst_and_CI"><input name="fn"
                                     type="hidden" value="search"><input name="vid" type="hidden"
                                     value="01URI"><input name="offset" type="hidden" value="0"><button class="submit-button"
-                                    id="primo-submit" name="submit" type="submit" aria-label="search"><span class="dashicons dashicons-search"></span></button>
+                                    id="primo-submit" name="submit" type="submit" aria-label="Library Search"><span class="dashicons dashicons-search"></span></button>
                             </div><!-- end library-primo-container-->
 
 
@@ -37,7 +37,7 @@ function uri_library_search_box()
                     <div class="library-search-options">
                         <div class="search-options-row">
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01URI&amp;mode=advanced">Advanced
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/home?vid=01URI_INST:01URI_INST_NDE&lang=en&mode=advanced">Advanced
                                         Search</a></div>
                             </div><!-- end column-->
 
@@ -46,14 +46,14 @@ function uri_library_search_box()
                             </div><!-- end column-->
 
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01URI&amp;tab=course_tab">Course
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/home?vid=01URI_INST:01URI_INST_NDE&lang=en&tab=CourseReserves">Course
                                         Reserves</a></div>
                             </div><!-- end column-->
                         </div><!-- end row -->
 
                         <div class="search-options-row">
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/login?vid=01URI&amp;targetURL=https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01URI&amp;lang=en_US">My
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/account?vid=01URI_INST:01URI_INST_NDE&lang=en">My
                                         Library Account</a></div>
                             </div><!-- end column-->
 
@@ -62,7 +62,7 @@ function uri_library_search_box()
                             </div><!-- end column-->
 
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri-primo.hosted.exlibrisgroup.com/primo-explore/jsearch?vid=01URI&amp;lang=en_US">e-Journals</a></div>
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/jsearch?vid=01URI_INST:01URI_INST_NDE&lang=en">e-Journals</a></div>
                             </div><!-- end column-->
                         </div> <!-- end row -->
                     </div><!--end library-search-options> -->

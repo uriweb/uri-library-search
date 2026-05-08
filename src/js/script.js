@@ -11,9 +11,9 @@
 	$( '#library-primo-search' ).on( 'submit', prepQuery );
 	function prepQuery() {
 		const query = $( 'input[name=query]', $( '#library-primo-search' ) ).val();
-		let q = 'https://uri-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,';
+		let q = 'https://uri.primo.exlibrisgroup.com/nde/search?query=';
 		q += query;
-		q += '&tab=default_tab&search_scope=Books_More&vid=01URI&offset=0&fn=search';
+		q += '&tab=Everything&search_scope=MyInst_and_CI&vid=01URI_INST:01URI_INST_NDE&lang=en';
 		if ( query ) {
 			window.location.href = q;
 		}
