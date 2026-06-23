@@ -62,7 +62,7 @@ function uri_library_search_box()
                             </div><!-- end column-->
 
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/jsearch?vid=01URI_INST:01URI_INST_NDE&lang=en">e-Journals</a></div>
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/jsearch?vid=01URI_INST:01URI_INST_NDE&lang=en">Journals</a></div>
                             </div><!-- end column-->
                         </div> <!-- end row -->
                     </div><!--end library-search-options> -->
