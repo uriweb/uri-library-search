@@ -7,8 +7,8 @@ Paste the shortcode into a page to display the URI Library Search box.
 
 Ex: ```[uri-library-search]```
 
-## What's New in 2.1.0
-This is a minor release that links the library search function to a new UI. 
+## What's New in 2.1.1
+This is a fix release that edits the text of the 'Journals' link.
 
 ## Plugin Details
 
@@ -22,4 +22,4 @@ Contributors: Alexandra Gauss \
 Tags: plugins  
 Requires at least: 4.0  
 Tested up to: 6.9.4  
-Stable tag: 2.1.0  
+Stable tag: 2.1.1  
