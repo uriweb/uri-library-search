@@ -8,7 +8,7 @@ Paste the shortcode into a page to display the URI Library Search box.
 Ex: ```[uri-library-search]```
 
 ## What's New in 2.1.3
-This is a fix release edits the link to Course Reserves.
+This is a fix release that edits the link to Course Reserves.
 
 ## Plugin Details
 
