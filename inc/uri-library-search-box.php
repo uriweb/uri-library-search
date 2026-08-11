@@ -46,7 +46,7 @@ function uri_library_search_box()
                             </div><!-- end column-->
 
                             <div class="search-options-column">
-                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/home?vid=01URI_INST:01URI_INST_NDE&lang=en&tab=CourseReserves">Course
+                                <div class="library-search-item"><a href="https://uri.primo.exlibrisgroup.com/nde/home?vid=01URI_INST:reserves&lang=en">Course
                                         Reserves</a></div>
                             </div><!-- end column-->
                         </div><!-- end row -->
