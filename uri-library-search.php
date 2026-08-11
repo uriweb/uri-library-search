@@ -3,7 +3,7 @@
  * Plugin Name: URI Library Search
  * Plugin URI: http://www.uri.edu
  * Description: A Search Box for the URI Library homepage
- * Version: 2.1.2
+ * Version: 2.1.3
  * Author: URI Web Communications
  * Author URI: https://today.uri.edu/
  *
